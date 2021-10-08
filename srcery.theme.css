@@ -1,0 +1,132 @@
+/**
+ * @name Srcery_adapt
+ * @author Francisco Trigo
+ * @version 0.3
+ * @description srcery adaptation
+ * @source https://github.com/franciscotrigo
+**/
+
+
+
+:root {
+
+
+    /* Srcery Colors */
+    --srcery-black: #121212  !important;
+    --srcery-red: #EF2F27 !important;
+    --srcery-green: #519F50 !important;
+    --srcery-yellow: #Fbb829 !important;
+    --srcery-blue: #2C78BF !important;
+    --srcery-magenta: #E02C6D !important;
+    --srcery-cyan: #0AAEB3 !important;
+    --srcery-white: #BAA67F !important;
+    --srcery-b-black: #918175 !important;
+    --srcery-b-red: #F75341 !important;
+    --srcery-b-green: #98BC37 !important;
+    --srcery-b-yellow: #FED06E !important;
+    --srcery-b-blue: #68A8E4 !important;
+    --srcery-b-magenta: #FF5C8F !important;
+    --srcery-b-cyan: #2BE4D0 !important;
+    --srcery-b-white: #FCE8C3 !important;
+    /* extra colors ?? */
+    --srcery-orange: #FF5F00 !important;
+    --srcery-b-orange: #FF8700 !important;
+    --srcery-h-black: #121212 !important;
+    --srcery-xgray1: #262626 !important;
+    --srcery-xgray2: #303030 !important;
+    --srcery-xgray3: #3A3A3A !important;
+    --srcery-xgray4: #444444 !important;
+    --srcery-xgray5: #4E4E4E !important;
+    --srcery-xgray6: #585858 !important;
+
+
+
+    /* Discord Root Colors */
+    --header-primary: var(--srcery-white) !important;
+    --header-secondary: var(--srcery-b-white) !important;
+    --text-link: var(--srcery-blue) !important;
+    --interactive-hover: var(--srcery-yellow) !important;
+    --background-primary: var(--srcery-black) !important;
+    --background-secondary: var(--srcery-xgray1) !important;
+    --background-secondary-alt: var(--srcery-xgray2) !important;
+    --background-tertiary: var(--srcery-xgray1) !important;
+    --background-accent: var(--srcery-orange) !important;
+    --background-floating: var(--srcery-xgray5) !important;
+    --background-modifier-selected: var(--srcery-yellow) !important;
+    --activity-card-background: var(--srcery-red) !important;
+    --interactive-normal: var(--srcery-b-yellow) !important;
+    --channeltextarea-background: var(--srcery-xgray6) !important;
+    /* Message text and ie. timestamp*/
+    --text-normal: var(--srcery-b-white) !important;
+    --text-muted: var(--srcery-white) !important;
+    /* sdfsdf */
+    --rs-online-color: var(--srcery-green) !important;
+    --rs-idle-color: var(--srcery-yellow) !important;
+    --rs-dnd-color: var(--srcery-red) !important;
+    --rs-offline-color: var(--srcery-red) !important;
+    --rs-streaming-color: var(--srcery-b-magenta) !important;
+    --rs-invisible-color: var(--srcery-green) !important;
+    --interactive-muted: var(--srcery-magenta) !important;
+    /*scrollbar stuff :() */
+    --scrollbar-auto-thumb: var(--srcery-yellow) !important;
+    --scrollbar-auto-track: var(--srcery-b-yellow) !important;
+    /* something? */
+    --channels-default: var(--srcery-white) !important;
+    /* Highlight background of message under the mouse cursor*/
+    --background-message-hover: var(--srcery-xgray5) !important;
+  }
+  
+  .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+  .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--dracula-comment) !important;
+  }
+  
+  /* Home */
+  .container-1D34oG {
+    background-color: var(--srcery-black) !important;
+  }
+  
+  /* Scroll Bar */
+  .theme-dark
+    .scrollerThemed-2oenus.themedWithTrack-q8E3vB
+    .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: var(--dracula-selection) !important;
+    border: 4px solid var(--dracula-background) !important;
+    border-radius: 8px !important;
+  }
+  
+  /* Syntax Highlighing in Code Blocks*/
+  code {
+    color: var(--dracula-foreground) !important;
+  }
+  span.hljs-built_in {
+    color: var(--dracula-purple) !important;
+  }
+  span.hljs-keyword {
+    color: var(--dracula-pink) !important;
+  }
+  span.hljs-title {
+    color: var(--dracula-cyan) !important;
+  }
+  span.hljs-attr {
+    color: var(--dracula-foreground) !important;
+  }
+  span.hljs-string {
+    color: var(--dracula-yellow) !important;
+  }
+  span.hljs-number {
+    color: var(--dracula-purple) !important;
+  }
+  span.hljs-symbol {
+    color: var(--dracula-orange) !important;
+  }
+  span.hljs-meta {
+    color: var(--dracula-foreground) !important;
+  }
+  span.hljs-meta-keyword {
+    color: var(--dracula-pink) !important;
+  }
+  span.hljs-meta-string {
+    color: var(--dracula-orange) !important;
+  }
+  
