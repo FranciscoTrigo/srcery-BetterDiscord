@@ -7,6 +7,19 @@
 **/
 
 
+:root .message-2qnXI6.mentioned-xhSam7::before {
+  background: var(--mention-color-bar);
+  padding: 1px;
+}
+
+:root .message-2qnXI6.mentioned-xhSam7 {
+  background-color: var(--mention-color-background);
+}
+
+
+:root .message-2qnXI6.mentioned-xhSam7:hover {
+  background-color: var(--mention-color-hover) !important;
+}
 
 :root {
 
@@ -38,10 +51,20 @@
     --srcery-xgray4: #444444 !important;
     --srcery-xgray5: #4E4E4E !important;
     --srcery-xgray6: #585858 !important;
+    /* transparent colors */
 
 
 
-    /* Discord Root Colors */
+    /*Mention highlight*/
+    --mention-color-bar: var(--srcery-red) !important;
+    --mention-color-background: #ef2e272f;
+    --mention-color-hover: rgba(198, 98, 98, 0.15);
+    --mention-color: #EF2F27;
+    
+
+
+
+    /* ---   */
     --header-primary: var(--srcery-white) !important;
     --header-secondary: var(--srcery-b-white) !important;
     --text-link: var(--srcery-blue) !important;
@@ -52,7 +75,7 @@
     --background-tertiary: var(--srcery-xgray1) !important;
     --background-accent: var(--srcery-orange) !important;
     --background-floating: var(--srcery-xgray5) !important;
-    --background-modifier-selected: var(--srcery-yellow) !important;
+    --background-modifier-selected: var(--srcery-black) !important;
     --activity-card-background: var(--srcery-red) !important;
     --interactive-normal: var(--srcery-b-yellow) !important;
     --channeltextarea-background: var(--srcery-xgray6) !important;
@@ -69,7 +92,7 @@
     --interactive-muted: var(--srcery-magenta) !important;
     /*scrollbar stuff :() */
     --scrollbar-auto-thumb: var(--srcery-yellow) !important;
-    --scrollbar-auto-track: var(--srcery-b-yellow) !important;
+    --scrollbar-auto-track: var(--srcery-xgray1) !important;
     /* something? */
     --channels-default: var(--srcery-white) !important;
     /* Highlight background of message under the mouse cursor*/
