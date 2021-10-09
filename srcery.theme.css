@@ -52,14 +52,17 @@
     --srcery-xgray5: #4E4E4E !important;
     --srcery-xgray6: #585858 !important;
     /* transparent colors */
+    --srcery-red-trans: #ef2e272f !important;
+    --srcery-red-supertrans: #eb504ba1 !important;
+
 
 
 
     /*Mention highlight*/
     --mention-color-bar: var(--srcery-red) !important;
-    --mention-color-background: #ef2e272f;
-    --mention-color-hover: rgba(198, 98, 98, 0.15);
-    --mention-color: #EF2F27;
+    --mention-color-background: var(--srcery-red-trans) !important; /* transparent srcery-red */
+    --mention-color-hover: var(--srcery-red-supertrans) !important; /* less transparent srcery red */
+    --mention-color: var(--srcery-red) !important; /*i dont know what this is */
     
 
 
@@ -72,7 +75,7 @@
     --background-primary: var(--srcery-black) !important;
     --background-secondary: var(--srcery-xgray1) !important;
     --background-secondary-alt: var(--srcery-xgray2) !important;
-    --background-tertiary: var(--srcery-xgray1) !important;
+    --background-tertiary: var(--srcery-xgray4) !important;
     --background-accent: var(--srcery-orange) !important;
     --background-floating: var(--srcery-xgray5) !important;
     --background-modifier-selected: var(--srcery-black) !important;
@@ -109,14 +112,7 @@
     background-color: var(--srcery-black) !important;
   }
   
-  /* Scroll Bar */
-  .theme-dark
-    .scrollerThemed-2oenus.themedWithTrack-q8E3vB
-    .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: var(--dracula-selection) !important;
-    border: 4px solid var(--dracula-background) !important;
-    border-radius: 8px !important;
-  }
+
   
   /* Syntax Highlighing in Code Blocks*/
   code {
