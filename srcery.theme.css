@@ -6,7 +6,7 @@
  * @source https://github.com/franciscotrigo
 **/
 
-
+.timestampVisibleOnHover-2bQeI4 { opacity: 1 }
 :root .message-2qnXI6.mentioned-xhSam7::before {
   background: var(--mention-color-bar);
   padding: 1px;
