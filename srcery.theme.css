@@ -21,7 +21,65 @@
   background-color: var(--mention-color-hover) !important;
 }
 
+/* Little thingy that shows if a server has unread messages */
+/*  Below is the default one for reference~!
+position: absolute;
+display: block;
+width: 8px;
+border-radius: 0 4px 4px 0;
+margin-left: -4px;
+background-color: var(--header-primary); */
+.item-2hkk8m {
+position: absolute;
+display: block;
+width: 15px;
+border-radius: 0 4px 4px 0;
+margin-left: 0px;
+background-color: var(--srcery-red);
+}
+.wrapper-sa6paO {
+  /* position: relative; */
+  width: 10px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  contain: layout size;
+}
+
+.name-23GUGE {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  white-space: normal;
+  /* background-color: #0AAEB3; */
+  
+}
+
+.unread-2lAfLh { /* unread indicator for channels */
+    position: absolute;
+    height: 8px;
+    width: 4px;
+    border-radius: 0 4px 4px 0;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+}
+
+
+/* FInish of the thingy */
+
 :root {
+
 
 
     /* Srcery Colors */
@@ -91,7 +149,7 @@
     --rs-dnd-color: var(--srcery-red) !important;
     --rs-offline-color: var(--srcery-red) !important;
     --rs-streaming-color: var(--srcery-b-magenta) !important;
-    --rs-invisible-color: var(--srcery-green) !important;
+    /* --rs-invisible-color: var(--srcery-green) !important; */
     --interactive-muted: var(--srcery-magenta) !important;
     /*scrollbar stuff :() */
     --scrollbar-auto-thumb: var(--srcery-yellow) !important;
